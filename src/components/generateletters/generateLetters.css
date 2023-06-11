@@ -1,0 +1,101 @@
+label{
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    width: 500px;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .input-container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+  }
+  input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    transition: .5s;
+    width: 340px;
+    height: 50px;
+    border: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+  }
+  button{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 0 25px;
+    border: none;
+    background-color: #40916c;
+    color: #fff;
+    cursor: pointer;
+  }
+  .output-container{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #d5d0d0;
+    transform: translate(-50%, -50%);
+  }
+  .output-container label{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    width: 500px;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  .clear-letters{
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    transform: translate(-40%, -50%);
+    width: 150px;
+    height: 50px;
+    background-color: #eb2a08;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .link-div{
+    text-decoration: none !important;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 58%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #40916c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .error-message{
+    color: #eb2a08;
+    font-size: 20px;
+  }
